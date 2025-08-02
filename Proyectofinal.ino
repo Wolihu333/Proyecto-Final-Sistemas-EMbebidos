@@ -7,8 +7,8 @@
 #include <HTTPClient.h>
 
 // Credenciales de red
-const char SSID[64] = "IZZI-AA34";
-const char PSWD[64] = "JPzFz2KL49merMMyrT";
+const char SSID[64] = " "; // escribir tu red Wifi dentro de loas comillas
+const char PSWD[64] = " "; //escribir tu contraseña en el espacio entre comillas
 
 // Servidor de ThingSpeak
 String ServerLink = "https://api.thingspeak.com/update";
