@@ -12,7 +12,7 @@ const char PSWD[64] = " "; //escribir tu contraseña en el espacio entre comilla
 
 // Servidor de ThingSpeak
 String ServerLink = "https://api.thingspeak.com/update";
-String apiKey = "J85YCOIHI5CDSXEM";
+String apiKey = "";// ingresar tu llave 
 
 // Dimensiones OLED
 #define SCREEN_WIDTH 128
