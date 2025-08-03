@@ -7,12 +7,12 @@
 #include <HTTPClient.h>
 
 // Credenciales de red
-const char SSID[64] = " "; // escribir tu red Wifi dentro de loas comillas
-const char PSWD[64] = " "; //escribir tu contraseña en el espacio entre comillas
+const char SSID[64] = " "; // escribir tu red Wifi dentro de loas comillas----------------------
+const char PSWD[64] = " "; //escribir tu contraseña en el espacio entre comillas----------------
 
 // Servidor de ThingSpeak
 String ServerLink = "https://api.thingspeak.com/update";
-String apiKey = "";// ingresar tu llave 
+String apiKey = "";// ingresar tu llave -----------------------------
 
 // Dimensiones OLED
 #define SCREEN_WIDTH 128
